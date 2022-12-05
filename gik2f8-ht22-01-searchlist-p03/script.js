@@ -94,9 +94,9 @@ function renderBookListPicture(bookID, x, y) {
       y + 10
     }px] left-[${x + 10}px]">
     <div class="col-start-1 col-end-3  ">
-    <p class="m-2 text-black ">Titel: ${currentBook.title}</p>
-    <p class= "m-2 text-black">Author: ${currentBook.author}</p>
-    <p class= "m-2 text-black">Pages: ${currentBook.pages}</p>
+    <p class="m-2 text-black font-semibold ">Titel: ${currentBook.title}</p>
+    <p class= "m-2 text-black font-semibold">Author: ${currentBook.author}</p>
+    <p class= "m-2 text-black font-semibold">Pages: ${currentBook.pages}</p>
     </div>
     <img src = "${
       currentBook.coverImage
